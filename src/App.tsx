@@ -1,17 +1,5 @@
-import ConfirmSvg from "./assets";
-import { Button } from "./components/Button/Button";
-
 function App() {
-  const foo = () => {
-    console.log("hi");
-  };
-  return (
-    <div className="App">
-      <Button onClick={foo} title="Следующий шаг" reverse>
-        <ConfirmSvg />
-      </Button>
-    </div>
-  );
+  return <div className="App"></div>;
 }
 
 export default App;
