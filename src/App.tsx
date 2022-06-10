@@ -1,7 +1,17 @@
-import React from "react";
+import ConfirmSvg from "./assets";
+import { Button } from "./components/Button/Button";
 
 function App() {
-  return <div className="App"></div>;
+  const foo = () => {
+    console.log("hi");
+  };
+  return (
+    <div className="App">
+      <Button onClick={foo} title="Следующий шаг" reverse>
+        <ConfirmSvg />
+      </Button>
+    </div>
+  );
 }
 
 export default App;
