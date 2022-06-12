@@ -1,5 +1,7 @@
 function App() {
-  return <div className="App"></div>;
+  return (
+    <div style={{ display: "flex", justifyContent: "center" }} className="App"></div>
+  );
 }
 
 export default App;
