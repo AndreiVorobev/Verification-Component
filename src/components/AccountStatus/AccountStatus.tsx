@@ -2,11 +2,11 @@ import { FC } from "react";
 import { SuccessSvg, XcrossSvg } from "../../assets";
 import { StyledContainer, SvgContainer, TitleContainer } from "./styles";
 
-export interface AcountStatusProps {
+export interface AccountStatusProps {
   status: "verified" | "not-verified" | "blocked";
 }
 
-export const AcountStatus: FC<AcountStatusProps> = ({ status }) => {
+export const AccountStatus: FC<AccountStatusProps> = ({ status }) => {
   const verified = status === "verified";
   const notVerifed = status === "not-verified";
   const blocked = status === "blocked";
